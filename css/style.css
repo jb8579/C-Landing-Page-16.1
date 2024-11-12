@@ -1,0 +1,967 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ------------------------------- 
+    Body Start
+---------------------------------- */
+body{
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.651);
+    height: 100%;
+}
+/* ---------------------------------
+    Body End
+------------------------------------- */
+
+
+
+
+/* -------------------------------------
+    Disclaimer Start
+------------------------------------- */
+.bonXusdugagotNa2Vnt-disclaimer {
+    box-shadow: 0px 16px 80px 0px rgba(101, 77, 255, 0.171);
+    width: 100%;
+    overflow: hidden;
+    background: #DDCD14;
+    background: radial-gradient(at left top, #DDCD14, #D2D642);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bonXusdugagotNa2Vnt-disclaimer > p{
+    font-family: "Montserrat", serif;
+    color: #161616;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    font-style: normal;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.bonXusdugagotNa2Vnt-disclaimer > p > a{
+    color: #161616;
+}
+
+.bonXusdugagotNa2Vnt-disclaimer > p > img{
+    width: 24px;
+    position: relative;
+    top: -1px;
+    margin-right: 2px;
+}
+/* -------------------------------------
+    Disclaimer End
+---------------------------------------- */
+
+
+
+
+/* ------------------------------------
+    Header Section Start
+--------------------------------------- */
+.bonXusdugagotNa2Vnt-banner-content > h1 {
+    font-family: "Poppins", sans-serif;
+    color: #f5f5f5;
+    font-size: 34px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+.bonXusdugagotNa2Vnt-banner-content > p{
+    font-family: "Montserrat", serif;
+    color: #d8d8d8;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+.more { display: none; }
+  
+button.myBtn {
+    border: none;
+    outline: none;
+    background: none;
+    color: #d1d5d8;
+    text-decoration: underline;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.bonXusdugagotNa2Vnt-trust-area {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 25px 0px 10px 0px;
+}
+
+.bonXusdugagotNa2Vnt-trust-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bonXusdugagotNa2Vnt-trust-card > img{
+    width: 36px;
+}
+
+.bonXusdugagotNa2Vnt-trust-card > p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0px;
+    font-style: italic;
+}
+/* --------------------------------------
+    Header Section End
+-------------------------------------- */
+
+
+
+
+/* ---------------------------------------
+    List Table Section Start
+------------------------------------------ */
+.bonXusdugagotNa2Vnt-list-table{
+    padding: 30px 0px;
+}
+
+.bonXusdugagotNa2Vnt-table-card {
+    display: flex;
+    gap: 24px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+.bonXusdugagotNa2Vnt-logoWrapper {
+    position: relative;
+    flex-shrink: 0;
+    left: 0px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+.bonXusdugagotNa2Vnt-logoImg img {
+    width: 256px;
+    height: 134px;
+    border-radius: 3px 0 0 3px;
+    object-fit: contain;
+    position: relative;
+    top: 6px;
+}
+
+.bonXusdugagotNa2Vnt-level {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #d0ff00;
+    clip-path: polygon(100% 0, 93% 50%, 100% 100%, 0 100%, 0 0);
+    z-index: 1;
+}
+
+.bonXusdugagotNa2Vnt-level {
+    width: 140px;
+    height: 22px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.4px;
+    padding: 1px 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.bonXusdugagotNa2Vnt-cardBody {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    margin-right: 12px;
+    grid-template-columns: auto 350px 200px;
+    grid-template-rows: auto;
+    gap: 0 18px;
+    grid-template-areas: "title facts cta-btn";
+}
+
+.bonXusdugagotNa2Vnt-cardBonusTitle p {
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    align-items: center;
+    margin-bottom: 0;
+    color: #ffffff;
+    text-align: center;
+    animation: colorPulse 3s ease-in-out infinite;
+}
+
+.bonXusdugagotNa2Vnt-cardBonusTitle p > span {
+    font-size: 21px;
+    color: #d0ff00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+@keyframes colorPulse {
+    0%, 100% {
+        color: #dddddd;
+    }
+    33% {
+        color: #eafc9b;
+    }
+    66% {
+        color: #f5f5f5;
+    }
+}
+
+.bonXusdugagotNa2Vnt-ratingsWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 0px;
+    grid-area: facts;
+    gap: 16px;
+}
+
+.bonXusdugagotNa2Vnt-review-grid {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+}
+
+.bonXusdugagotNa2Vnt-rating-star > ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bonXusdugagotNa2Vnt-rating-star > ul > li{
+    list-style: none;
+    display: inline-flex;
+    color: #ffd915;
+    font-size: 16px;
+}
+
+.bonXusdugagotNa2Vnt-rating span {
+    font-size: 14px;
+}
+
+.bonXusdugagotNa2Vnt-review-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 12px;
+    margin-top: 12px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    color: #ffffff;
+}
+
+.bonXusdugagotNa2Vnt-value {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ffffff;
+    word-spacing: 1px;
+}
+
+.bonXusdugagotNa2Vnt-value > span{
+    font-size: 13px;
+}
+
+.bonXusdugagotNa2Vnt-btn-area {
+    align-self: flex-start;
+    flex-shrink: 0;
+    margin-top: 28px;
+    grid-area: cta-btn;
+}
+
+.bonXusdugagotNa2Vnt-btnCard {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    padding: 0px;
+    color: #000000;
+    border-radius: 24px;
+    background: #d0ff00;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+
+.bonXusdugagotNa2Vnt-btnCard:hover {
+    color: #000000;
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-out;
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(1) {
+    background: #ff4d4d;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(2) {
+    background: #4dd2ff;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(3) {
+    background: #ff6601;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(4) {
+    background: #8cff4d;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(5) {
+    background: #d64dff;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+}
+
+.bonXusdugagotNa2Vnt-btnCard:hover .sparkle {
+    opacity: 1;
+    animation: sparkleBurst 0.8s ease-out forwards;
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.bonXusdugagotNa2Vnt-btnCard .sparkle:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+@keyframes sparkleBurst {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(calc(-50% + 30px), calc(-50% - 30px)) scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(calc(-50% + 60px), calc(-50% - 60px)) scale(0.8);
+    }
+}
+
+.bonXusdugagotNa2Vnt-bonus-bottom-offer{
+    margin-bottom: 25px;
+}
+
+.bonXusdugagotNa2Vnt-bonus-bottom-offer > p {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    color: #dbdbdb;
+    line-height: 12px;
+    margin: 0px;
+    padding: 4px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bonXusdugagotNa2Vnt-bonus-bottom-offer > p > button {
+    font-size: 10px;
+}
+/* ------------------------------------
+    List Table Section End
+---------------------------------------- */
+
+
+
+
+/* ------------------------------------
+    Services Section Start
+---------------------------------------- */
+.bonXusdugagotNa2Vnt-servicesContext {
+    background: #fff;
+    border-radius: 15px;
+    padding: 37px 51px;
+}
+
+h2.bonXusdugagotNa2Vnt-servicesTitle {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px 0px 15px 0px;
+}
+
+p.bonXusdugagotNa2Vnt-wrapper-p{
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    color: #383737;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 15px 0px 45px 0px;
+}
+
+.bonXusdugagotNa2Vnt-listIconWrap {
+    display: flex;
+    gap: 16px;
+    justify-items: flex-start;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: aliceblue;
+    border-left: 4px solid #007280;
+}
+
+.bonXusdugagotNa2Vnt-iconPhoto {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    border-radius: 10px;
+    min-width: 70px;
+    height: 65px;
+    text-align: center;
+}
+
+.bonXusdugagotNa2Vnt-iconPhoto > img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-27px);
+}
+
+.bonXusdugagotNa2Vnt-list-text > h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.bonXusdugagotNa2Vnt-list-text > p{
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0px;
+    margin: 0px;
+    color: #383737;
+    line-height: 20px;
+}
+/* -------------------------------------
+    Services Section End
+--------------------------------------- */
+
+
+
+
+/* ------------------------------------
+    About Section Start
+------------------------------------- */
+.bonXusdugagotNa2Vnt-aboutText{
+    background: #fff;
+    border-radius: 15px;
+    padding: 37px 51px;
+    margin: 60px 0px;
+}
+
+.bonXusdugagotNa2Vnt-aboutText > h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0px 15px 0px;
+    color: #000000;
+}
+
+.bonXusdugagotNa2Vnt-aboutText > h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0px 5px 0px;
+    color: #000000;
+}
+
+.bonXusdugagotNa2Vnt-aboutText > p{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 0px;
+    margin: 0px;
+    color: #383737;
+    line-height: 20px;
+}
+/* ---------------------------
+    Main-text Section End
+------------------------------ */
+
+
+/* -------------------------------------
+    Three Card Start
+--------------------------------------- */
+.bonXusdugagotNa2Vnt-topThree {
+    padding-bottom: 60px;
+}
+
+.bonXusdugagotNa2Vnt-three-OfferCardWrap {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0;
+}
+  
+.bonXusdugagotNa2Vnt-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(1deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(6 54 104) 98.6%);
+    max-width: 372px;
+    width: 100%;
+    min-height: 107px;
+    padding: 10px 15px;
+    position: relative;
+}
+  
+.Ribbon__StyledLoogRibbon-sc-1tqoeow-0.fqInKP.Card_ribbon__zwMbj.primary-ribbon-1 {
+    left: -15px;
+    top: -20px;
+    max-height: 7px !important;
+    width: 128px;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    clip-path: polygon(100% 0, 93% 50%, 100% 100%, 0 100%, 0 0);
+    background: #d0ff00;
+    position: relative;
+}
+
+.Ribbon__StyledLoogRibbon-sc-1tqoeow-0.fqInKP.Card_ribbon__zwMbj.primary-ribbon-1 > span {
+    padding: 15px;
+    font-weight: 600;
+}
+  
+.bonXusdugagotNa2Vnt-item.primary .bonXusdugagotNa2Vnt-item-container {
+    position: relative;
+    top: -5px;
+}
+  
+.Card_cardRow__1j4qH .Card_cardButton__UvsHg .Card_ctaTooltip__M78x2 span > img{
+    position: relative;
+    top: -2px;
+}
+  
+.fqInKP.primary-ribbon-1{
+    min-height: 23px;
+}
+  
+.bonXusdugagotNa2Vnt-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 338px;
+    min-height: 78px;
+}
+  
+.bonXusdugagotNa2Vnt-item__top-block, .bonXusdugagotNa2Vnt-item__bottom-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+  
+.bonXusdugagotNa2Vnt-item__top-block, .bonXusdugagotNa2Vnt-item__bottom-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+  
+.bonXusdugagotNa2Vnt-three_offer_rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 30px;
+    border-radius: 1000px;
+    background: #d0ff00;
+    font-weight: 700;
+    font-size: 18px;
+    color: #121212;
+    font-family: "Montserrat", serif;
+}
+
+.bonXusdugagotNa2Vnt-welcomeBonus {
+    width: 100%;
+    max-width: 211px;
+    padding-top: 14px;
+}
+
+.bonXusdugagotNa2Vnt-welcomeBonus a {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #d0cdcd;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Montserrat", serif;
+}
+  
+.bonXusdugagotNa2Vnt-welcomeBonus a:hover{
+    color: #fff;
+}
+
+.three_offer_verdict {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+  
+.three_offer_verdict {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+}
+  
+.bonXusdugagotNa2Vnt-three_offer_rates {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+  
+.three_offer_logo {
+    height: 36px;
+    width: 36px;
+    border-radius: inherit;
+    display: block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  
+.three_offer_logo__holder {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #D9D9D9;
+}
+  
+.three_offer_logo_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 10px;
+    text-decoration: none;
+}
+  
+.three_offer_name {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+  
+a.bonus-1 {
+    font-family: var(--font-1-inter);
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+}
+  
+.bonXusdugagotNa2Vnt-bonus-offer-extra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+ul.star-rate {
+    padding: 0px;
+    display: flex;
+    color: #ffd915;
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 0px !important;
+}
+  
+.bonXusdugagotNa2Vnt-bonus-offer-extra > ul > li{
+    padding: 0px 2px;
+    font-size: 14px;
+}
+
+.bonXusdugagotNa2Vnt-getBonus {
+    text-transform: capitalize;
+    color: #a0be0f;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.bonXusdugagotNa2Vnt-getBonus:hover {
+    color: #a0be0f;
+}
+/* -------------------------------------
+    Three Card End
+---------------------------------------- */
+
+
+
+
+/* ------------------------------------------
+    Sub Pages Start
+--------------------------------------------- */
+.bonXusdugagotNa2Vnt-subpages {
+    padding: 30px 0px;
+    background: #00000041;
+    border-top: 1px solid rgba(100, 100, 100, 0.418);
+    margin-top: 35px;
+}
+
+h2.bonXusdugagotNa2Vnt-sub-title{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    font-style: normal;
+    padding-bottom: 12px;
+}
+
+.bonXusdugagotNa2Vnt-subpages-context > h5{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    padding: 10px 0px;
+    margin: 0px;
+    font-family: "Montserrat", serif;
+}
+
+.bonXusdugagotNa2Vnt-subpages-context > p{
+    color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0px;
+    font-family: "Montserrat", serif;
+}
+
+.bonXusdugagotNa2Vnt-subpages-context > ul > li{
+    color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-family: "Montserrat", serif;
+}
+/* -------------------------------------------
+    Sub Pages End
+--------------------------------------------- */
+
+
+
+
+/* --------------------------------------- 
+    Footer Start
+------------------------------------------- */
+.bonXusdugagotNa2Vnt-footer {
+    padding: 40px 50px;
+    background: #07111b;
+}
+
+.bonXusdugagotNa2Vnt-footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+}
+
+.row.bonXusdugagotNa2Vnt-footer-content-top.pb-4 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1365px;
+}
+
+.row.bonXusdugagotNa2Vnt-footer-content-b{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1365px;
+}
+
+.footer-license-images img {
+    padding: 10px 0px 20px 0px;
+    filter: grayscale(1);
+}
+    
+footer img.bonXusdugagotNa2Vnt-footer-ico {
+    max-width: 160px;
+    filter: grayscale(1);
+}
+
+.bonXusdugagotNa2Vnt-footer-logo > img:nth-child(1){
+    width: 50px;
+    height: 50px;
+}
+
+img.bonXusdugagotNa2Vnt-footer-ico.anj-logo {
+    width: 110px;
+}
+
+.bonXusdugagotNa2Vnt-footer-text > p{
+    color: #c2c2c2;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    margin: 0px;
+    font-family: "Montserrat", serif;
+    word-spacing: 1px;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid gainsboro !important;
+    opacity: .35 !important;
+}
+
+.bonXusdugagotNa2Vnt-footer-link > p {
+    font-family: "Montserrat", serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px 14px;
+}
+
+.bonXusdugagotNa2Vnt-footer-link > ul{
+    margin: 0px 14px;
+    padding: 0px;
+    list-style: none;
+    text-align: left;
+}
+
+.bonXusdugagotNa2Vnt-footer-link > ul > li > a{
+    color: #c2c2c2;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    margin: 0px;
+    font-family: "Montserrat", serif;
+    word-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.bonXusdugagotNa2Vnt-footer-link > ul > li > a:hover {
+    color: #0d61fd;
+    text-decoration: underline;
+}
+
+.bonXusdugagotNa2Vnt-copyright{
+    color: #c2c2c2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: "Montserrat", serif;
+    word-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+/* --------------------------------------------
+    Footer End
+----------------------------------------------- */
+
+
+
+
+
+
