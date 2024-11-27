@@ -8,10 +8,17 @@
     .bonXusdugagotNa2Vnt-disclaimer > p > img {
         width: 16px;
     }
+    img.bonXusdugagotNa2Vnt-footer-ico.footer-eroga {
+        margin: 0px;
+    }
 
     .bonXusdugagotNa2Vnt-banner-content > h1 {
         font-size: 22px;
         margin: 0px;
+    }
+
+    .bonXusdugagotNa2Vnt-footer-logo {
+        gap: 14px 0px;
     }
 
     .bonXusdugagotNa2Vnt-banner-content > p {
@@ -499,11 +506,16 @@
     .bonXusdugagotNa2Vnt-trust-card > p {
         font-size: 10px;
     }
-
+    img.bonXusdugagotNa2Vnt-footer-ico.anj-logo {
+        margin-right: 20px;
+    }
     .bonXusdugagotNa2Vnt-trust-card {
         gap: 4px;
     }
-
+    img.bonXusdugagotNa2Vnt-footer-ico.footer-gamcare-logo {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
     .bonXusdugagotNa2Vnt-review-grid {
         width: 94px;
     }
@@ -534,7 +546,13 @@
     .bonXusdugagotNa2Vnt-btnCard {
         left: -20px;
     }
-    
+    img.bonXusdugagotNa2Vnt-footer-ico.footer-eroga {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .bonXusdugagotNa2Vnt-footer-logo {
+        gap: 16px 0px;
+    }
 
     .bonXusdugagotNa2Vnt-cardBody {
         grid-template-columns: auto 250px 190px;

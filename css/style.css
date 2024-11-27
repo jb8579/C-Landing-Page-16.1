@@ -870,23 +870,40 @@ h2.bonXusdugagotNa2Vnt-sub-title{
 
 .footer-license-images img {
     padding: 10px 0px 20px 0px;
-    filter: grayscale(1);
 }
     
 footer img.bonXusdugagotNa2Vnt-footer-ico {
     max-width: 160px;
-    filter: grayscale(1);
 }
 
 .bonXusdugagotNa2Vnt-footer-logo > img:nth-child(1){
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
 }
 
 img.bonXusdugagotNa2Vnt-footer-ico.anj-logo {
     width: 110px;
 }
+img.bonXusdugagotNa2Vnt-footer-ico.footer-eroga {
+    width: 118px;
+    margin-left: 25px;
+}
+img.bonXusdugagotNa2Vnt-footer-ico.footer-gamcare-logo {
+    width: 90px;
+    margin-left: 20px;
+}
+img.bonXusdugagotNa2Vnt-footer-ico.footer-begam {
+    max-width: 220px;
+    margin-right: 20px;
+}
+img.bonXusdugagotNa2Vnt-footer-ico.footer-18-plus {
+    margin-right: 20px;
+}
 
+img.bonXusdugagotNa2Vnt-footer-ico.footer-jex {
+    width: 132px;
+    margin-right: 20px;
+}
 .bonXusdugagotNa2Vnt-footer-text > p{
     color: #c2c2c2;
     font-size: 13px;
